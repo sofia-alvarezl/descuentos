@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="estilo.css">
+<title>Statistics</title>
+</head>
+<body>
+<header>
+  <div class="header__container">
+    <h1> Promedio, Mediana y Moda</h1>
+    <p> En este ejercicio podrás calcular el promedio, mediana y moda de los 
+      valores que tu eligas.
+    </p>
+  </div>
+
+  <section>
+    <nav>
+      <ol class="header__button">
+          <li><a href="index.html"> inicio</a></li>
+          <li><a href="descuentos.html"> Descuentos</a></li>
+          <li>
+          <a href="promediomedianamoda.html"> Promedio, Mediana, Moda </a></li>
+        </nav>
+      </ol>
+    </section>
+</header>
+
+<section class="main__container">
+    <section class="main__container-card">
+      <h2> Calcula tu promedio: </h2>
+      <form>
+        <label for="inputPromedio">Ingresa tus datos: </label>
+        <input id="inputPromedio" type="text" placeholder="Ej:20, 10, 50" />
+      </form>
+
+      <button type="button" onclick="calcularMediaAritmetica1()">
+        calcular la media
+    </button>
+    <p id="resultadoMedia"></p>
+  </section>
+  <section class="main__container-card">
+    <h2>Calcula tu mediana:</h2>
+    <form>
+      <label for="inputMediana">Ingresa tus datos: </label>
+      <input id="inputMediana" type="text" placeholder="Ej: 20, 10, 50">
+    </form>
+ <button type="button" onclick="calcularMediana()">
+Calcular mediana
+ </button>
+ <p id="resultadoMediana"></p>
+ </section>
+</main>
+
+<section class="main__container-card">
+  <h2> Calcula tu moda: </h2>
+  <form> 
+    <label for="inputModa"> Ingresa tus datos: </label>
+    <input id="inputModa" type="text" placeholder="Ej: 20,10,50"/>
+  </form>
+
+  <button type="button" onclick="calcularModa()">Calcular la Moda</button>
+  <p id="resultadoModa"></p>
+  </section>
+  </section>
+
+<footer class="footer">
+  <p>Desarrollado por: Sofia Alvarez Londoño</p>
+</br>
+</footer>
+<script src="promedio.js"></script>
+<script src="mediana.js"></script>
+<script src="moda.js"></script>
+
+</body>
+</html>
