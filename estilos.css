@@ -1,9 +1,9 @@
 :root {
-  --blue: blue;
-  --blue-secundario: #1a9af7;
+  --blue: rgb(241, 187, 241);
+  --blue-secundario: #d988e9;
   --blue-soft: #e7f5ff;
   --grey: #bababa;
-  --warm-black: #282623;
+  --warm-black: #755d72;
 }
 
 * {
@@ -15,7 +15,7 @@
 html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
-  background: linear-gradient(232deg, #282623, #1a9af7);
+  background: linear-gradient(232deg, #7a4874, #e0bae4);
   background-size: 400% 400%;
 }
 
@@ -38,7 +38,7 @@ header {
   height: auto;
   padding-top: 20px;
   padding-bottom: 20px;
-  border: 1 solid black;
+  border: 1 solid rgb(255, 255, 255);
 }
 
 .header__container h1 {
@@ -54,7 +54,7 @@ header {
 }
 header nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   list-style: none;
   height: 30px;
   margin-bottom: 20px;
@@ -101,4 +101,25 @@ nav -header__button a{
   border: 1 solid var(--white);
   border-radius: 5px;
   padding: 30px;
+}
+
+head nav .header__button {
+  width: auto;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav .header__button a {
+  color: var(--blue-soft);
+  text-decoration: none;
+  border: 1px solid var(--blue-secundario);
+  background-color: var(--blue-secundario);
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 5px;
+  margin-right: 5px;
 }
