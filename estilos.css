@@ -59,7 +59,7 @@ header nav {
   height: 30px;
   margin-bottom: 20px;
 }
-head nav .header__button {
+header nav .header__button {
   width: auto;
   height: auto;
   display: flex;
@@ -68,18 +68,17 @@ head nav .header__button {
   align-items: center;
 }
 
-nav -header__button a{
+header nav .header__button {
   color: var(--blue-soft);
   text-decoration: none;
   border: 1px solid var(--blue-secundario);
   background-color: var(--blue-secundario);
-  border-radious: 15px;
-  font-size: 1.2rem
+  border-radius: 15px;
+  font-size: 1.2rem;
   font-weight: bold;
   padding: 5px;
   margin-right: 5px;
 }
-
 .header__container img {
   margin: 0 auto;
   width: 60px;
@@ -87,7 +86,7 @@ nav -header__button a{
   padding-bottom: 10px;
 }
 
-.main_container{
+.main_container {
   display: flex;
   justify-content: space-evenly;
   justify-content: space-evenly;
